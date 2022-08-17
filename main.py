@@ -1,5 +1,6 @@
 import mysql.connector
 import getpass
+#a comment
 def log_in(password):
     global mydb
     mydb = mysql.connector.connect(
